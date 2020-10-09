@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5178ee54-ae05-496e-addf-2002af8a23dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ngx-smooth-scroll.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/bundles/ngx-smooth-scroll.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/bundles/ngx-smooth-scroll.umd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/bundles/ngx-smooth-scroll.umd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/bundles/ngx-smooth-scroll.umd.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/lib/directives/scroll-to/scroll-to.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/lib/directives/scroll/scroll.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/lib/interfaces/ISmoothScrollOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/lib/ngx-smooth-scroll.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/lib/services/smooth-scroll.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/lib/types/EasingType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/ngx-smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm2015/public-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/lib/directives/scroll-to/scroll-to.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/lib/directives/scroll/scroll.directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/lib/interfaces/ISmoothScrollOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/lib/ngx-smooth-scroll.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/lib/services/smooth-scroll.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/lib/types/EasingType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/ngx-smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/esm5/public-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/fesm2015/ngx-smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/fesm2015/ngx-smooth-scroll.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/fesm5/ngx-smooth-scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/fesm5/ngx-smooth-scroll.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/lib/directives/scroll-to/scroll-to.directive.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/lib/directives/scroll/scroll.directive.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/lib/interfaces/ISmoothScrollOptions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/lib/ngx-smooth-scroll.module.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/lib/services/smooth-scroll.service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/lib/types/EasingType.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/ngx-smooth-scroll-9.0.0.tgz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/ngx-smooth-scroll.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/ngx-smooth-scroll.metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ngx-smooth-scroll/public-api.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/CHANGELOGS.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/ng-package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/directives/scroll-to/scroll-to.directive.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/directives/scroll-to/scroll-to.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/directives/scroll/scroll.directive.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/directives/scroll/scroll.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/interfaces/ISmoothScrollOptions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/services/smooth-scroll.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/services/smooth-scroll.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/smooth-scroll.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/lib/types/EasingType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/public-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/tsconfig.lib.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/tsconfig.lib.prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ngx-smooth-scroll/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ng2-SmoothScroll.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1ie8g0rwbpvuCz0p9ZBDmx8d4E8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5178ee54-ae05-496e-addf-2002af8a23dd" name="Default Changelist" comment="" />
+      <created>1602256804915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602256804915</updated>
+      <workItem from="1602256806089" duration="2600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/dist/ngx-smooth-scroll" />
+        <option value="$PROJECT_DIR$/dist/ngx-smooth-scroll/ngx-smooth-scroll.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1602258912908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602258912908" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1602258912908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602258912908" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1602258912908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602258912908" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1602258912908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602258912908" />
+    <state x="464" y="154" key="SettingsEditor" timestamp="1602257098763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602257098763" />
+    <state x="100" y="99" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602259992492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="99" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602259992492" />
+    <state x="781" y="256" width="348" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1602259864799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="781" y="256" width="348" height="519" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602259864799" />
+    <state x="744" y="423" width="422" height="185" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602258902202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="423" width="422" height="185" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602258902202" />
+  </component>
+</project>

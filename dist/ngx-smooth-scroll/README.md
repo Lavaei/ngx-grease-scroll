@@ -1,61 +1,49 @@
 Angular Smooth Scroll
 ==============
 
-> base on [Angular smooth scroll](https://github.com/kavil/ng2SmoothScroll)
+> base on[Angular smooth scroll](https://github.com/d-oliveros/ngSmoothScroll)
 
-An Angular 10 library to scroll smoothly to an element with easing.
+An Angular 9 library to scroll smoothly to an element with easing. Easing support contributed
+ by Willem Liu with code from Gaëtan Renaudeau.
 
 # Features
 
-  * Uses standard angular package structure.
-  * Exposes an angular module to completely match with angular projects.
-  * Exposes a service that scrolls the window to an element's location.
+  * Exposes a service that scrolls the window to an element's location
   * Provides two directives that enable smooth scrolling to elements.
   * Clean: No classes are added, no jQuery is required, no CSS files or configuration is needed.
   * Scrolling within a custom container added in 2.0.0
-  * Strongly typed
 
 # Installation
 
-Install the package:
+```js
+// bower:
+import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2SmoothScroll";
+
+// npm:
+import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scroll";
+...
+declarations[
+	...
+	SmoothScrollToDirective,
+	SmoothScrollDirective,
+	...
+]
+```
+
+# Bower
+
+Install with bower with:
 
 ```bash
-npm i ngx-smooth-scroll
+bower install ng2SmoothScroll
 ```
 
-Import it in your module:
+# Npm
 
-```typescript
-import { SmoothScrollModule } from "ngx-smooth-scroll";
+Install with npm with:
 
-@NgModule({
-    imports: [
-        SmoothScrollModule
-    ]
-})
-```
-
-# Usage - As a service
-
-```typescript
-@Component({
-  selector:    'app-section-top-bar',
-  templateUrl: './section-top-bar.component.html',
-  styleUrls:   ['./section-top-bar.component.scss']
-})
-export class SectionTopBarComponent
-{
-
-  constructor(protected _smoothScrollService: SmoothScrollService,
-              @Inject(DOCUMENT) protected _document: Document)
-  {
-  }
-
-  scrollToTop()
-  {
-    this._smoothScrollService.scrollTo(this._document.body)
-  }
-}
+```bash
+npm install ng2-smooth-scroll
 ```
 
 # Usage - As a directive

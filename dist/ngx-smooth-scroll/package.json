@@ -1,0 +1,19 @@
+{
+  "name": "ngx-smooth-scroll",
+  "version": "10.0.0",
+  "peerDependencies": {
+    "@angular/common": "^10.1.5",
+    "@angular/core": "^10.1.5"
+  },
+  "main": "bundles/ngx-smooth-scroll.umd.js",
+  "module": "fesm2015/ngx-smooth-scroll.js",
+  "es2015": "fesm2015/ngx-smooth-scroll.js",
+  "esm2015": "esm2015/ngx-smooth-scroll.js",
+  "fesm2015": "fesm2015/ngx-smooth-scroll.js",
+  "typings": "ngx-smooth-scroll.d.ts",
+  "metadata": "ngx-smooth-scroll.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
