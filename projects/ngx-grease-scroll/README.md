@@ -1,68 +1,56 @@
-Angular Grease Scroll
+Angular Smooth Scroll
 ==============
 
-> base on [Angular Smooth Scroll](https://github.com/kavil/ng2SmoothScroll)
+> base on[Angular smooth scroll](https://github.com/d-oliveros/ngSmoothScroll)
 
-An Angular 10 library to scroll smoothly to an element with easing.
+An Angular 9 library to scroll smoothly to an element with easing. Easing support contributed
+ by Willem Liu with code from Gaëtan Renaudeau.
 
 # Features
 
-  * Uses standard angular package structure.
-  * Exposes an angular module to completely match with angular projects.
-  * Exposes a service that scrolls the window to an element's location.
+  * Exposes a service that scrolls the window to an element's location
   * Provides two directives that enable smooth scrolling to elements.
   * Clean: No classes are added, no jQuery is required, no CSS files or configuration is needed.
   * Scrolling within a custom container added in 2.0.0
-  * Strongly typed
 
 # Installation
 
-Install the package:
+```js
+// bower:
+import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2SmoothScroll";
+
+// npm:
+import { SmoothScrollToDirective, SmoothScrollDirective } from "ng2-smooth-scroll";
+...
+declarations[
+	...
+	SmoothScrollToDirective,
+	SmoothScrollDirective,
+	...
+]
+```
+
+# Bower
+
+Install with bower with:
 
 ```bash
-npm i ngx-grease-scroll
+bower install ng2SmoothScroll
 ```
 
-Import it in your module:
+# Npm
 
-```typescript
-import { GreaseScrollModule } from "ngx-grease-scroll";
+Install with npm with:
 
-@NgModule({
-    imports: [
-        GreaseScrollModule
-    ]
-})
-```
-
-# Usage - As a service
-
-```typescript
-@Component({
-  selector:    'app-section-top-bar',
-  templateUrl: './section-top-bar.component.html',
-  styleUrls:   ['./section-top-bar.component.scss']
-})
-export class SectionTopBarComponent
-{
-
-  constructor(protected _greaseScrollService: GreaseScrollService,
-              @Inject(DOCUMENT) protected _document: Document)
-  {
-  }
-
-  scrollToTop()
-  {
-    this._greaseScrollService.scrollTo(this._document.body)
-  }
-}
+```bash
+npm install ng2-smooth-scroll
 ```
 
 # Usage - As a directive
 
 This module provides two directives:
 
-#### scroll:
+#### smoothScroll:
 
 Attribute. Scrolls the window to this element, optionally validating the expression inside scroll-if.
 
@@ -70,10 +58,10 @@ Example:
 ```html
 
 // Basic - The window will scroll to this element's position when compiling this directive
-<div scroll></div>
+<div smoothScroll></div>
 
 // With options
-<div scroll
+<div smoothScroll
 	[duration]="800"
 	[easing]="easeInQuint"
 	[offset]="120"
@@ -84,7 +72,7 @@ Example:
 </div>
 
 // Inside a custom container
-<div scroll
+<div smoothScroll
 	[duration]="800"
 	[easing]="easeInQuint"
 	[offset]="120"
@@ -95,13 +83,13 @@ Example:
 </div>
 
 // With condition
-<div scroll
+<div smoothScroll
 	[scrollIf]="myExpression">
 	{{...}}
 </div>
 
 // Inside ng-repeat
-<div scroll
+<div smoothScroll
 	[scrollIf]="myExpression"
 	[duration]="2500">
 	{{...}}
@@ -153,7 +141,7 @@ Example:
 Type: `Integer`
 Default: `800`
 
-The duration of the smooth scroll, in milliseconds.
+The duration of the smooth scroll, in miliseconds.
 
 #### offset
 Type: `Integer`
@@ -177,7 +165,7 @@ Middle align the scrolled element
 type: `boolean`
 default: `false`
 
-(scroll directive only) Scroll to element when it is clicked
+(smoothScroll directive only) Scroll to element when it is clicked
 
 #### callbackBefore
 type: `function`
